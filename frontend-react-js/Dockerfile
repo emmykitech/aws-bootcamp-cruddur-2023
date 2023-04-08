@@ -8,6 +8,6 @@ COPY . /frontend-react.js
 
 RUN npm install
 
-EXPOSE $(PORT)
+EXPOSE ${PORT}
 
 CMD ["npm", "start"]
